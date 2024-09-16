@@ -27,14 +27,15 @@ header menu {
   margin: 0px;
   flex-direction: row;
   list-style-type: none;
-  margin: 0px;
   align-items: center;
 }
 
 header menu a {
   width: 60px;
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
+  font-family: sans-serif;
+  color: black;
 }
 header menu a:hover {
   background-color: gray;
@@ -44,4 +45,7 @@ header menu a:hover {
 
 header button {
   margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
 }
