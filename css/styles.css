@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+header {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+}
+
+header img {
+  padding: 5px;
+}
+
+header menu {
+  display: flex;
+  height: 100%;
+  margin: 0px;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0px;
+  align-items: center;
+}
+
+header menu a {
+  width: 60px;
+  padding: 5px;
+  text-decoration: none;
+}
+header menu a:hover {
+  background-color: gray;
+  color: white;
+  border-radius: 2px;
+}
+
+header button {
+  margin: 5px;
+}
